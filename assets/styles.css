@@ -1,0 +1,31 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+     /*background: linear-gradient(90deg, #e3bafc 0%, #9095dc 100%);*/     
+}
+
+body{
+    background: linear-gradient(90deg, #e3bafc 0%, #9095dc 100%);    
+
+} 
+
+
+h1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.styleCards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  padding: 15px;
+
+}
