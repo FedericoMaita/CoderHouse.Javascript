@@ -1,7 +1,8 @@
  *{
     margin: 0%;
     padding: 0%;
-     /*background: linear-gradient(90deg, #e3bafc 0%, #9095dc 100%);*/     
+     /*background: linear-gradient(90deg, #e3bafc 0%, #9095dc 100%);*/  
+
 }
 
 body{
@@ -11,12 +12,16 @@ body{
 
 
 h1{
+  font-family: cinzel,sans-serif; 
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
   justify-content: center;
   padding-bottom: 20px;
+}
+nav{
+  font-family: cinzel,sans-serif; 
 }
 
 .styleCards{
@@ -28,4 +33,10 @@ h1{
 
   padding: 15px;
 
+/*  flex-wrap: wrap;*/
+}
+#texto-creado{
+  font-family: 'Chakra Petch', sans-serif;; 
+  font-weight: bold;
+  font-size: 16px;
 }
