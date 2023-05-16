@@ -39,16 +39,24 @@ background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, F
 .styleCards{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
+  gap: 2%;
   text-align: center;
-  justify-content: center;
-
+  flex-wrap: nowrap;
   padding: 15px;
-
-/*  flex-wrap: wrap;*/
 }
 #texto-creado{
   font-family: 'Chakra Petch', sans-serif;; 
   font-weight: bold;
   font-size: 16px;
+}
+
+.texto-prestamos{
+  padding: 20px;
+  margin: 10px 30px;
+  border: 0.01px solid blue;
+}
+
+#carta-color-principal{
+  background-color: #ac68e3;
 }
