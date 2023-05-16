@@ -24,6 +24,18 @@ nav{
   font-family: cinzel,sans-serif; 
 }
 
+.footer-style{
+
+  height: 150px;
+  background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.texto-footer{
+  padding-top: 50px;
+  margin: 20px;
+}
+
 .styleCards{
   display: flex;
   flex-direction: row;
