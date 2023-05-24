@@ -60,3 +60,26 @@ background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, F
 #carta-color-principal{
   background-color: #ac68e3;
 }
+
+#contenedor-cards-ecommerce{
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/*estilo de cada carta individual*/
+.card{
+  margin: 10px;
+}
+.card-title{
+  text-align: left;
+}
+.card-body{
+  text-align: right;
+}
+.btn{
+  background-color: #a1f7cc;
+}
