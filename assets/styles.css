@@ -71,6 +71,10 @@ background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, F
   align-items: center;
 }
 /*estilo de cada carta individual*/
+.card-header{
+  font-family: serif;
+  font-size: 24px;
+}
 .card{
   margin: 10px;
 }
